@@ -389,9 +389,7 @@ p {
 	font-weight: normal;
 	color: #333;
 }
-
-
-<<< .menu li:hover ul {
+.menu li:hover ul {
         display:block;
         position: absolute;
         padding: 0;
