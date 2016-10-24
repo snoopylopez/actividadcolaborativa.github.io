@@ -383,7 +383,15 @@ p{
 	text-decoration: none;
 }
 
-menu li:hover ul {
+/*SEUDO CLASES*/
+p {
+	font-size: 12px;
+	font-weight: normal;
+	color: #333;
+}
+
+
+<<< .menu li:hover ul {
         display:block;
         position: absolute;
         padding: 0;
@@ -396,10 +404,4 @@ menu li:hover ul {
         display:none;
         position:absolute;
         min-width:130px;
-        }
-/*SEUDO CLASES*/
-p {
-	font-size: 12px;
-	font-weight: normal;
-	color: #333;
-}
+    }
